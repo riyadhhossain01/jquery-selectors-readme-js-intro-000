@@ -9,7 +9,7 @@ function lastImageSelector(){
 return $('img:last')
 }
 function divSelector(){
-  return $('DIV')
+  return $('#pics div')
 }
 function firstListItem(){
   return $('ul li:first-child')
