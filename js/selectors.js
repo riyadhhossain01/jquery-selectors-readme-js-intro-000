@@ -3,7 +3,7 @@ function paragraphSelector(){
   return $('p')
 }
 function ninjaBabySelector(){
-  return $('img')
+  return $('#baby-ninja img')
 }
 function lastImageSelector(){
 return $('img:last')
