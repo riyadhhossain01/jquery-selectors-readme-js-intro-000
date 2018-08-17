@@ -6,7 +6,5 @@ function ninjaBabySelector(){
   return $('img')
 }
 function lastImageSelector(){
-var list = document.querySelector('img')
-
-  return list[-1];
+return $('img:last')
 }
